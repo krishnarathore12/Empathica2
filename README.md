@@ -1,39 +1,79 @@
 # Empathica
 
-Welcome to our Humanised Chatbot project repository! This project aims to enhance user experience and cater to user needs using the power of Large Language Models (LLMs), particularly leveraging LPU (Large Pretrained Unsupervised) models. 
+## Project Overview
+This project aims to develop a humanised chatbot targeting B2B interactions, leveraging Large Pretrained Language Models (LPU based LLMs) to enhance user experience. The chatbot integrates sentiment analysis, retrieval augmented generation, and a feedback mechanism, all orchestrated through a federal learning approach for decentralized global model generation.
+
+![Yellow ai User Flow (2)](https://github.com/krishnarathore12/Empathica2/assets/115251521/f9197d14-c9d4-49d3-a81a-7e0c6b14b218)
+
 
 ## Contributors
-- Vinayak Goyal 
+- Vinayak Goyal
 - Krishna Rathore
 - Hemant Chaurasia
 - Anvaya Sharma
 - Rishabh Raunak
 
-## Overview
-
-Our chatbot is designed for business-to-business (B2B) interactions. It incorporates advanced natural language processing techniques and technologies to provide empathetic responses, context-based query responses, and continuously improves its performance through a feedback mechanism integrated with Customer Relationship Management (CRM) systems.
-
 ## Features
 
-### 1. Sentiment Analysis for Empathetic Responses
-The chatbot employs sentiment analysis techniques to understand the user's emotions and respond accordingly, enhancing the overall user experience. It utilizes pre-trained models to analyze the sentiment of user inputs and generates responses tailored to the detected emotion.
+### Sentiment Analysis
+- **Methodology**: Integrating sentiment analysis into the chatbot pipeline to determine the sentiment of user messages.
+- **Interpretation**: Assigning sentiment scores (positive, negative, or neutral) to messages.
+- **Response Strategies**:
+  - Positive Sentiment: Respond enthusiastically and affirmatively.
+  - Negative Sentiment: Express empathy and offer support or solutions.
+  - Neutral Sentiment: Respond neutrally or informatively.
+- **Contextual Understanding**: Analyzing sentiment in the context of the conversation for better accuracy.
 
-### 2. Retrieval-Augmented Generation for Context-Based Queries
-By utilizing retrieval-augmented generation techniques, the chatbot can generate responses based on context, ensuring more relevant and accurate answers to user queries. This approach involves retrieving relevant information from a knowledge base and using it to augment the response generation process, thereby improving the quality of responses.
+   ![WhatsApp Image 2024-04-21 at 23 55 58_de2763b4](https://github.com/krishnarathore12/Empathica2/assets/115251521/c826b1dd-cf55-4700-9b9b-03253df6c1cf)
 
-### 3. Feedback Mechanism for Continuous Improvement
-Integration with Customer Relationship Management (CRM) systems allows the chatbot to collect and analyze feedback from users. This feedback loop helps improve the efficiency of response generation and enhances the user experience with each iteration. The chatbot stores feedback data in the CRM system, analyzes it to identify patterns or areas for improvement, and incorporates these insights into its response generation algorithms.
+   ![WhatsApp Image 2024-04-21 at 23 55 57_3551578b](https://github.com/krishnarathore12/Empathica2/assets/115251521/49b8cc51-5877-4e3c-9f2b-4ca743c06881)
 
-### 4. Visual Cues for Human-Like Effect
-Visual cues are incorporated into the chatbot's interface to create a more human-like interaction, making the user experience more engaging and intuitive. These visual cues may include avatars, emoticons, or animations that accompany the chatbot's responses, providing users with a sense of interaction with a human-like entity.
+### Retrieval Augmented Generation
+- **Methodology**: Utilizing retrieval augmented generation for context-based query responses. This technique combines the advantages of retrieval-based and generative-based approaches, allowing the chatbot to retrieve relevant information from a knowledge base and generate responses accordingly.
+- **Advantages**: Enables the chatbot to provide more accurate and contextually relevant responses to user queries.
+- **Implementation**: Incorporating a knowledge base and retrieval mechanism to support the chatbot in retrieving and generating responses based on user queries.
 
-### 5. Federal Learning for Decentralized Global Model Generation
-The overall model architecture is based on federal learning, enabling decentralized global model generation. This approach involves training multiple local models on distributed datasets and aggregating their knowledge to generate a global model. By decentralizing the training process, federal learning enhances scalability, privacy, and efficiency in training and deploying the chatbot across various platforms and environments.
+  ![WhatsApp Image 2024-04-21 at 23 56 28_265ea8b4](https://github.com/krishnarathore12/Empathica2/assets/115251521/a08c8c12-bb13-44d3-a0f0-0557d389aaea)
 
-## Installation
+  ![WhatsApp Image 2024-04-21 at 23 55 58_1c0fd143](https://github.com/krishnarathore12/Empathica2/assets/115251521/987df118-be5c-464e-b177-9929bb354125)
+ 
 
-To set up the chatbot environment locally, follow these steps:
+### Enhancing User Experience
+- **Anthropomorphic Visual Cues**: Implementing visual cues for a human-like effect to enhance social presence and perceived homophily.
+- **Benefits**:
+  - Greater Social Presence: Leading to favorable attitudes and increased behavioral intentions to return to the website.
+  - Perceived Homophily: Contributing to positive attitudes and increased return intentions.
+- **Implementation**: Designing the chatbot interface with anthropomorphic visual cues such as avatars or emojis to foster a sense of human-like interaction.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/humanised-chatbot.git
+
+### Feedback Mechanism
+- **Real-Time Feedback Integration**: Allowing users to provide feedback on response relevance and quality in real-time.
+- **Feedback Interpretation**: Analyzing feedback sentiment and categorizing it based on specific response aspects.
+- **Dynamic Response Adjustment**: Using feedback to dynamically adjust response generation.
+- **Relevance Ranking Optimization**: Incorporating feedback into the relevance ranking mechanism to prioritize relevant information retrieval.
+- **Learning from User Interactions**: Employing machine learning algorithms to analyze feedback patterns and iteratively improve chatbot performance.
+- **Implementation**: Integrating feedback buttons or text input within the chatbot interface for users to provide real-time feedback.
+
+## Usage
+- Clone the repository.
+- Install dependencies.
+- Run the chatbot application.
+- Monitor feedback and performance metrics.
+- Iterate on improvements based on user interactions.
+
+## Dependencies
+- LPU based Large Language Models
+- Sentiment Analysis Model
+- CRM System
+- Visual Cues Implementation
+- Machine Learning Algorithms
+
+## Future Improvements
+- Multilingual Support: Enhance chatbot capabilities to support multiple languages for broader user reach.
+- Integration with Voice Assistants: Enable voice interaction for users who prefer spoken communication.
+- Advanced Contextual Understanding: Implement more sophisticated algorithms for understanding and responding to complex user queries.
+- Personalization Capabilities: Incorporate user preferences and history to tailor responses and recommendations.
+- Integration with Business Systems: Connect the chatbot with enterprise systems for seamless workflow assistance and data integration.
+
+## License
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
