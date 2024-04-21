@@ -57,6 +57,18 @@ This project aims to develop a humanised chatbot targeting B2B interactions, lev
 - **Learning from User Interactions**: Employing machine learning algorithms to analyze feedback patterns and iteratively improve chatbot performance.
 - **Implementation**: Integrating feedback buttons or text input within the chatbot interface for users to provide real-time feedback.
 
+
+
+### Federal Learning
+- **Approach**: Implementing federal learning for decentralized global model generation. This approach allows multiple distributed nodes to collaboratively train a global model while preserving data privacy and security.
+- **Advantages**:
+  - **Data Privacy**: Ensures that sensitive user data remains localized and is not shared across the network.
+  - **Scalability**: Facilitates scalable model training by distributing computation across multiple nodes.
+  - **Robustness**: Increases model robustness by aggregating knowledge from diverse data sources.
+- **Implementation**: Configuring the chatbot architecture to incorporate federal learning methodologies for model training and updates.
+
+![fedral](https://github.com/Vinayakgoyal24/Empathica2/assets/141870146/4ee491ab-0a5d-403a-8f8f-17efa8d7d922)
+
 ## Usage
 - Clone the repository.
 - Install dependencies.
