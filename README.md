@@ -1,1 +1,1 @@
-# Empathica2
+# Empathica
