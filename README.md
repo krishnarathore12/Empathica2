@@ -3,6 +3,9 @@
 ## Project Overview
 This project aims to develop a humanised chatbot targeting B2B interactions, leveraging Large Pretrained Language Models (LPU based LLMs) to enhance user experience. The chatbot integrates sentiment analysis, retrieval augmented generation, and a feedback mechanism, all orchestrated through a federal learning approach for decentralized global model generation.
 
+![initial](https://github.com/krishnarathore12/Empathica2/assets/115251521/37c89844-fb34-4814-b747-460350721232)
+
+
 ![Yellow ai User Flow (2)](https://github.com/krishnarathore12/Empathica2/assets/115251521/f9197d14-c9d4-49d3-a81a-7e0c6b14b218)
 
 
