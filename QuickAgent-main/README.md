@@ -6,7 +6,6 @@ This demo is set up to use [Deepgram](www.deepgram.com) for the audio service an
 
 This demo utilizes streaming for sst and tts to speed things up.
 
-Video tutorial coming soon
 
 The files in `building_blocks` are the isolated components if you'd like to inspect them
 
